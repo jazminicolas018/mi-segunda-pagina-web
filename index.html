@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi segunda página web</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        ol {
+            color: rgb(214, 18, 54);
+        }
+    </style>
+</head>
+
+<!-- Este es un comentario, no se ve -->
+
+<body>
+    <!-- Etiqueta semántica HEADER: guarda la cabecera de nuestra página.-->
+    <header>
+
+        <h1 class="rojo fondo-azul-claro">¡Hola mundo!(*-*)!</h1>
+
+    </header>
+
+    <!-- Etiqueta semántica MAIN: guarda el contenido principal de nuestra página.-->
+    <main>
+        <p class="rojo">Me siento muy feliz del día de hoy poder hacer mi primer sitio web.</p>
+
+        <ol style="color: rgb(28, 197, 16);">
+            <li>
+                <!-- Abrir la url en la misma página o pestaña.-->
+                <a href="#gatito">Gatito.</a>
+            </li>
+            <li>
+                <!-- Abrir la url en la misma página o pestaña.-->
+                <a href="#pollito">Pollito.</a>
+            </li>
+            <li>
+                <a href="https://www.google.com/">Google dentro de la página.</a>
+                <!-- Abrir la url en otra página o pestaña.-->
+            </li>
+            <li>
+                <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer">Google</a>
+            </li>
+        </ol>
+
+
+        <img height="500" class="mamifero" <img id="100" src="data:image/webp;base64,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"
+            alt="perrito"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+
+        <img id="gatito" height="500" class="mamifero" src=https://images.hola.com/imagenes/mascotas/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg?tx=w_1200 alt="Gatito">
+
+        <h3 class="rojo" id="subtitulo">Los gatitos son animales maravillosos.</h3>
+        <p class="colorTextoAzul mamifero">Los gatitos se comieron un ratón</p>
+
+        <p>
+            <em>Lorem</em> ipsum dolor sit amet consectetur <strong>adipisicing</strong> elit. Nesciunt adipisci maxime corrupti dicta inventore quos odit quasi in porro saepe cumque fugiat aperiam, exercitationem soluta. Fugiat rem dolores nihil quam.
+        </p>
+        <button>Da click</button>
+        <img id="gatito" height="500" src="gatito.jpg" alt="gatito">
+    </main>
+    <!-- Etiqueta semántica FOOTER: guarda el pie de página de nuestra página.-->
+
+    <footer>
+        <center><a href="https://tecnolochicas.mx/" target="_blank">Technolochicas</a></center>
+    </footer>
+
+
+</body>
+
+</html>
